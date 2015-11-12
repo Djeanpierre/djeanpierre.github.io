@@ -22,8 +22,8 @@ author_image: "/assets/images/author.jpg"
 paginate:	5
 
 url: "http://localhost:4000" # the base hostname & protocol for your site
-url: "http://tmjam.github.io/tauseef-blog"
-baseurl: ""
+url: "http://tmjam.github.io"
+baseurl: "/tauseef-blog"
 #used to display twitter cards
 twitter_handle: '@tmjam3011'
 
