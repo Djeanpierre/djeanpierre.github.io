@@ -59,3 +59,7 @@ social:
 #    share_url:
 #    share_title:
 #    share_link:
+
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-modernist
