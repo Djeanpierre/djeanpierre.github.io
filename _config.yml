@@ -40,6 +40,8 @@ urls:
       url: /projects/
     - text: Blogs
       url: /blogs/
+    - text: Tweets
+      url: /tweets/
     - text: XML Feed
       url: /feed.xml
 # url: "http://localhost:4000"
