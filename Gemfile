@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
+gem 'github-pages', group: :jekyll_plugins
 
-# 'github-pages' includes 'jekyll' gem 
-gem 'github-pages'
-gem 'bourbon'
+gem 'guard'
+gem 'guard-jekyll-plus'
+gem 'guard-livereload'
