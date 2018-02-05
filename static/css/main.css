@@ -1,6 +1,6 @@
 body {
   font-family: "Roboto Condensed", Arial, sans-serif;
-  background: url("/static/img/subtle_dots.png");
+  background: url("../img/subtle_dots.png");
   line-height: 1.5em;
   font-weight: 300;
   font-size: 16px;
@@ -191,7 +191,7 @@ div.col-sm-3 img.profile-avatar {
   text-align: center;
 } 
 .header-content {
-  background-image: url('/static/img/header_bg.jpg');
+  background-image: url('../img/header_bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: center;
