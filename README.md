@@ -1,78 +1,72 @@
-mediator
-========
+## My Stack Problems
 
-A medium inspired Jekyll blog theme. The basic idea came from the Ghost theme
-[Readium 2.0](http://www.svenread.com/readium-ghost-theme/). I use mediator on my own blog [The Base](http://blog.base68.com).
+> This project forked and has been modified from [A simple grey theme for Jekyll](https://github.com/liamsymonds/simplygrey-jekyll),
+> and the search posts using [Super Search](https://github.com/chinchang/super-search)
 
-Screenshots
---------
-![screenshot](/assets/images/screenshot1.jpg)
-![screenshot](/assets/images/screenshot2.jpg)
-![screenshot](/assets/images/screenshot3.jpg)
+### Demo
+* [https://agusmakmun.github.io](https://agusmakmun.github.io)
 
-Features
--------
-* Fully Responsive layout
-* Use header images in articles, if you want to (add tag "image" and url to the image in the front matter section of a post)
-* Minimal design
-* Featured article support
-* FontAwesome implemented for easy use of icons fonts
-* Free & Open Source Font usage
+#### Features
 
-Getting Started
----
-- [Fork this repository](https://github.com/dirkfabisch/mediator)
-- Clone it: `git clone https://github.com/YOUR-USER/mediator`
-- Install the requried gems ([GitHub Pages](https://github.com/github/pages-gem), [Bourbon](https://github.com/thoughtbot/bourbon) and [Jekyll](https://github.com/jekyll/jekyll)): `bundle install`
-- Run the jekyll server: `bundle exec jekyll serve`
+* Sitemap and XML Feed
+* Pagination in homepage
+* Posts under category
+* Realtime Search Posts _(title & description)_ by query.
+* Related Posts
+* Highlight pre
+* Next & Previous Post
+* Disqus comment
+* Projects page & Detail Project page
+* Share on social media
+* Google analytics
+* HTML Minify _(Compress HTML)_ using [Jekyll Compress HTML](https://github.com/penibelst/jekyll-compress-html)
 
-You should have a server up and running locally at <http://localhost:4000>.
+#### Screenshot
 
-Configuration
------
+![Screenshot Post Page](https://raw.githubusercontent.com/agusmakmun/agusmakmun.github.io/master/static/img/screenshot-post-page.png  "Screenshot Post Page")
 
-The main settings happen in side of the _config.yml file:
+### Install & Configuration
 
-### Site
+1. Fork this repository
+2. Edit site settings inside file of `_config.yml`
+3. Edit your projects at file of `projects.md`, `_data/projects.json` and inside path of `_project/` _(for detail project)_.
+4. Edit about yourself inside file of `about.md`
 
-Main settings for the site
+### How to Use?
 
-* **title**: name of your site
-* **description**: description of your site
-* **logo**: small logo for the site (300x * 300x)
-* **cover**: large background image on the index page
+**a. Add new Category**
 
-* **name**: name site owner
-* **email**: mail address of the site owner
-* **author**: author name
-* **author_image**: small image of author (300x * 300px)
-* **disqus**: add a disqus forum for your post
+All categories saved inside path of `category/`, you can see the existed categories.
 
-### Social
+**b. Add new Posts**
 
-The template allows to add all major social plattforms to your site.
-Fill the the form for each plattform. If you leave the share_* entries empty, the sharing buttons below a post are not shown.  If you leave the **url** and **desc** empty the icons are not shown on the index page, but the share icons on the article pages remains untouched (Thanks to [Phil](https://github.com/philsturgeon))
-
-* **icon**:	name of social plattform (must match a name of [font-awsome](http://fortawesome.github.io/Font-Awesome/) icon set )
-* **url**:	url of your account
-* **desc**: slogan of the plattform
-* **share_url**: share url
-* **share_title**: first part of url for the title
-* **share_link**: second part of the share url for the link to the post
-
-The Liquid template engine will magical combine the different parts to a share url.
+* All posts bassed on markdown syntax _(please googling)_. allowed extensions is `*.markdown` or `*.md`.
+* This files can found at the path of `_posts/`.
+* and the name of files are following `<date:%Y-%m-%d>-<slug>.<extension>`, for example:
 
 ```
-http://twitter.com/share?text=post_title&amp;url=post_url
-````
+2013-09-23-welcome-to-jekyll.md
 
-See [_config.yml](https://github.com/dirkfabisch/mediator/blob/master/_config.yml) for more examples.
+# or
 
-Licensing
----------
+2013-09-23-welcome-to-jekyll.markdown
+```
 
-[MIT](https://github.com/dirkfabisch/mediator/blob/master/LICENCE) with no added caveats, so feel free to use this on your site without linking back to me or using a disclaimer or anything silly like that.
+Inside the file of it,
 
-Contact
--------
-I'd love to hear from you at [@dirkfabisch](https://twitter.com/dirkfabisch). Feel free to open issues if you run into trouble or have suggestions. Pull Requests always welcome.
+```
+---
+layout: post                          # (require) default post layout
+title: "Your Title"                   # (require) a string title
+date: 2016-04-20 19:51:02 +0700       # (require) a post date
+categories: [python, django]          # (custom) some categories, but makesure these categories already exists inside path of `category/`
+tags: [foo, bar]                      # (custom) tags only for meta `property="article:tag"`
+image: Broadcast_Mail.png             # (custom) image only for meta `property="og:image"`, save your image inside path of `static/img/_posts`
+---
+
+# your content post with markdown syntax goes here...
+```
+
+### Contributing
+
+Feel free to [open a bug](https://github.com/agusmakmun/agusmakmun.github.io/issues) or [contribute to code](https://github.com/agusmakmun/agusmakmun.github.io/pulls)!

@@ -3,15 +3,11 @@ layout: page
 title: About
 permalink: /about/
 ---
+<p>
+I am currently a Sr. Software Engineer at <a href="https://www.build.com" target="_blank">Build.com</a>. I consider myself as a full-stack developer and equally excited working on both ends. I like complex problem sovling and coming up with an efficient solution.I am passionate about learning new technologies and implementing them. 
+</p>
 
-A medium inspired Jekyll blog theme. The basic idea came from the Ghost theme 
-[Readium 2.0](http://www.svenread.com/readium-ghost-theme/). I use mediator on my own blog [The Base](blog.base68.com).
+Email: <a href="mailto:{{site.email}}?Subject=From Blog Site:">{{site.email}}</a>
 
-You can **download** the theme here:
-[https://github.com/dirkfabisch/mediator](https://github.com/dirkfabisch/mediator) 
-
-You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
-
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+## Resume
+<iframe src="https://drive.google.com/open?id=18xHF4SRS3pEAnxkowZhucR2UFtVALNuD" width="100%" height="900"></iframe>
