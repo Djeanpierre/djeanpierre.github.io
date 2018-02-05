@@ -43,8 +43,8 @@ urls:
     - text: XML Feed
       url: /feed.xml
 
-url: "https://tmjam.github.io/tauseef-blog"
-baseurl: ""
+url: "https://tmjam.github.io"
+baseurl: "/tauseef-blog"
 paginate: 20
 per_page: 20
 paginate_path: "/blogs/page/:num/"
