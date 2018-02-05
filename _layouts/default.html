@@ -12,7 +12,7 @@ layout: compress
     <meta name="author" content="{{ site.author }}" />
     <meta name="description" content="{% if page.title %}{{ page.title }}{% else %}{{ site.description }}{% endif %}" />
     <meta name="keywords" content="{% if page.title %}{{ page.title }}, {{ site.title }}, {% for categ in page.categories %}{{ categ }}{% if forloop.last == false %}, {% endif %}{% endfor %}{% else %}{{ site.title }}, {% for category in site.categories %}{% capture categories_slug %}{{ category | first }}{% endcapture %}{% for categ in categories_slug %}{{ categ }}{% endfor %}{% if forloop.last == false %}, {% endif %}{% endfor %}{% endif %}" />
-    <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ site.url }}/feed.xml">
     <meta content="{{ site.share.fb_appid }}" property="fb:app_id">
     <meta content="{{ site.title }}" property="og:site_name">
 
@@ -114,7 +114,7 @@ layout: compress
     <div class="container">
       <div class="col-sm-3">
         <div class="fixed-condition text-center">
-          <a href="/"><img class="profile-avatar" src="{{ site.url }}/{{ site.avatar_url }}" height="75px" width="75px" /></a>
+          <a href="{{ site.url }}/"><img class="profile-avatar" src="{{ site.url }}/{{ site.avatar_url }}" height="75px" width="75px" /></a>
           <h1 class="author-name">{{ site.author }}</h1>
           {% if site.about %}
             <div class="profile-about">
@@ -135,7 +135,7 @@ layout: compress
           <hr />
           <ul class="sidebar-nav text-left">
             <strong>Navigation</strong>
-            <li><a href="/">Home</a></li>
+            <li><a href="{{ site.url }}/">Home</a></li>
             {% for i in site.urls %}
               <li><a class="about" href="{{ site.url }}{{ i.url }}">{{ i.text }}</a></li>
             {% endfor %}
