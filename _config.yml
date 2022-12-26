@@ -18,7 +18,7 @@ collections:
     permalink: /project/:path/
 
 social:
-    - icon: fas fa-analytics
+    - icon: fa-analytics
       link: "https://www.mavenanalytics.io/profile/Dorbens-Jean-Pierre/105713616"
     - icon: fa-linkedin
       link: "https://www.linkedin.com/in/dorbens-jean-pierre-90972b13a/"
@@ -32,7 +32,7 @@ urls:
       url: /projects/
     - text: Professional Certificates
       url: /certificates/
-url: "https://tmjam.github.io/tauseef-blog"
+#url: "https://github.com/Djeanpierre"
 baseurl: ""
 paginate: 20
 per_page: 20
