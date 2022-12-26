@@ -4,9 +4,9 @@ author: Dorbens Jean-Pierre
 email: djp978@gmail.com
 phone: (781) 913-8633
 github: https://github.com/Djeanpierre
-about: I am a Data Analyst at <a href="https://www.gem.com/?i=1" target="_blank">GEM</a> and ML enthusiat. I enjoy continuing my education in the field postgrad and taking online courses.
+about: I am a Data Analyst at <a href="https://www.gem.com/?i=1" target="_blank">GEM</a> and ML enthusiast. I enjoy continuing my education in the field postgrad and taking online courses.
 disqus_shortname: programming
-google_analytics: UA-31048387-6
+google_analytics: G-T3XKX0S9ED
 avatar_url: /static/img/me.jpg
 
 enableTags: true
@@ -30,11 +30,8 @@ urls:
       url: /about/
     - text: Projects
       url: /projects/
-    - text: Blogs
-      url: /blogs/
-    - text: XML Feed
-      url: /feed.xml
-# url: "http://localhost:4000"
+    - text: Professional Certificates
+      url: /certificates/
 url: "https://tmjam.github.io/tauseef-blog"
 baseurl: ""
 paginate: 20
