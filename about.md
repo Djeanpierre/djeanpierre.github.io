@@ -4,7 +4,7 @@ title: Resume
 permalink: /resume/
 ---
 <p>
-I am currently a Sr. Software Engineer at <a href="https://www.build.com" target="_blank">Build.com</a>. I consider myself as a full-stack developer and equally excited working on both ends. I like complex problem sovling and coming up with an efficient solution.I am passionate about learning new technologies and implementing them. 
+Please feel free to reveiw my professional expereince.Also, One of the roles I left early due to moving to California for graduate scool and the other they were about to do a restructure. 
 </p>
 
 Email: <a href="mailto:{{site.email}}?Subject=From Blog Site:">{{site.email}}</a>
