@@ -27,7 +27,7 @@ social:
 
 urls:
     - text: Resume
-      url: /about/
+      url: /resume/
     - text: Projects
       url: /projects/
     - text: Professional Certificates
