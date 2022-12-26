@@ -18,7 +18,7 @@ collections:
     permalink: /project/:path/
 
 social:
-    - icon: fa-analytics
+    - icon: fas fa-analytics
       link: "https://www.mavenanalytics.io/profile/Dorbens-Jean-Pierre/105713616"
     - icon: fa-linkedin
       link: "https://www.linkedin.com/in/dorbens-jean-pierre-90972b13a/"
